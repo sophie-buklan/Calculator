@@ -11,11 +11,11 @@ namespace Calculator
         public ActionFactory()
         {
             list.Add(new ActionPlus());
-            list.Add(new ActionPlus());
-            list.Add(new ActionPlus());
-            list.Add(new ActionPlus());
-            list.Add(new ActionPlus());
-            list.Add(new ActionPlus());
+            list.Add(new ActionMinus());
+            list.Add(new ActionMulty());
+            list.Add(new ActionDivide());
+            list.Add(new ActionPower());
+            list.Add(new ActionLog());
         }
 
         public IAction GetAction(char sign)
