@@ -40,9 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ActionDivide.cs" />
     <Compile Include="ActionFactory.cs" />
+    <Compile Include="ActionLog.cs" />
     <Compile Include="ActionMinus.cs" />
+    <Compile Include="ActionMulty.cs" />
     <Compile Include="ActionPlus.cs" />
+    <Compile Include="ActionPower.cs" />
     <Compile Include="IAction.cs" />
     <Compile Include="IOManager.cs" />
     <Compile Include="Program.cs" />
